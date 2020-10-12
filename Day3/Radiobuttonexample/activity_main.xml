@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B6B2B2"
+    tools:context=".MainActivity">
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="339dp"
+        android:layout_height="192dp"
+        android:layout_marginBottom="360dp"
+        android:background="#4D575E"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <RadioButton
+            android:id="@+id/batman"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Batman"
+            android:textColor="#FFFFFF" />
+
+        <RadioButton
+            android:id="@+id/superman"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Superman"
+            android:textColor="#FFFFFF" />
+
+        <RadioButton
+            android:id="@+id/ironman"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="IronMan"
+            android:textColor="#FFFFFF" />
+
+        <RadioButton
+            android:id="@+id/spiderman"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Spiderman"
+            android:textColor="#FFFFFF" />
+
+        <RadioButton
+            android:id="@+id/captainamerica"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Captain America"
+            android:textColor="#FFFFFF" />
+
+        <RadioButton
+            android:id="@+id/captainmarvel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Captain Marvel"
+            android:textColor="#FFFFFF" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="121dp"
+        android:layout_height="52dp"
+        android:layout_marginBottom="268dp"
+        android:background="#949868"
+        android:shadowColor="#C69A9A"
+        android:text="Submit"
+        android:textColor="#000000"
+        android:textColorHighlight="#B88C8C"
+        android:textColorHint="#912828"
+        android:textColorLink="#9A1E1E"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="584dp"
+        android:background="#C4EAC493"
+        android:text="Select your favorite Superhero::"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
